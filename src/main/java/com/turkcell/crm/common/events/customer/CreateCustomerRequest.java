@@ -21,8 +21,6 @@ public class CreateCustomerRequest {
 
     private LocalDate birthDate;
 
-//    private int gender; //todo: enum tablosu olacak
-
     private String fatherName;
 
     private String motherName;
@@ -30,10 +28,6 @@ public class CreateCustomerRequest {
     private String motherMaidenName;
 
     private String nationalityId;
-
-//    private List<Integer> address_ids; //todo: address tablosu ile bağlantısı sağlanacak manager tarafında
-//
-//    private int contact_id; //todo: contact tablosu ile bağlantısı sağlanacak manager tarafında
 
     private int id;
 
@@ -44,10 +38,6 @@ public class CreateCustomerRequest {
     private LocalDateTime deletedDate;
 
     private Boolean active;
-
-
-//    @Field(name = "gender")
-//    private char gender;
 
     private String mobilePhoneNumber;
 
